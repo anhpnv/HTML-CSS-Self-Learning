@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	font-family: "Times New Roman", Georgia, Serif
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 66%;
+}
+ul {
+	position: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 1px 1px #BBB ;
+
+}
+
+li {
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px;
+	color: #000;
+	float: left;
+}
+
+li a:hover{
+	background-color: #CCC;
+}
+
+li .box {
+	float: right;
+}
+
+.container-image {
+	background-image: url(hamburger.jpg);
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+.container-image  p{
+	position: absolute;
+	bottom: -4%;
+	font-size: 40px;
+	left: 20px;
+	color: #666
+}
+
+
+.container-catering {
+	font-size: 18px;
+	margin: 64px 0px;
+	display: flex;
+	justify-content: center;
+}
+.container-catering .item{
+	margin: 20px;
+	width: 33%;
+}
+.container-catering img{
+	opacity: 84%;
+}
+
+/*catering*/
+.container-catering .catering {
+}
+
+.container-catering .catering h1{
+	text-align: center;
+}
+
+.container-catering .catering .origin{
+	text-align: center;
+}
+
+
+.container-catering .catering .information{
+}
+
+
+.container-catering .catering .detail{
+	color: #757575;
+}
+
+.container-catering .catering .our-menu {
+	margin-bottom: 50px;
+	font-family: "Playfair Display";
+	font-size: 20px;
+}
+
+.container-catering .catering .our-menu p{
+	font-size: 15px;
+	color: #757575;
+}
+
+
+.container-contact {
+	display: flex;
+	justify-content: center;
+	margin: 64px 0px;
+
+}
+
+.container-contact .contact-item {
+	width: 66%;
+}
+
+.container-contact .contact-item .address{
+	font-size: 18px;
+	color: #607d8b;
+}
+
+.container-contact .contact-item form input{
+	font-family: serif;
+	font-size: inherit;
+	padding: 20px 66% 20px 10px;
+	border: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #ddd;
+}
+
+.container-contact .contact-item form button{
+	font-family: serif;
+	font-size: inherit;
+	margin-top: 10px;
+	background-color: #ddd;
+	border:none;
+	padding:10px;
+
+}
+
+.container-contact .contact-item form button:hover{
+	background-color: #AAA;
+
+}
+
+footer {
+	display: flex;
+	background-color: #ddd;
+	width: 100%;
+	height: 110px;
+	opacity: 80%;
+	justify-content: center;
+	align-items: center;
+}
